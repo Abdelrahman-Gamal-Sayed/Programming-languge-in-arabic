@@ -1,0 +1,219 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="txtInput.Text" xml:space="preserve">
+    <value>المقدمة :
+لغة البرمجة ()ھي لغة برمجة عربیة تحتوي على أساسیات لغات البرمجة من إخراج البیانات وإدخالھا
+وتعریف المتغیرات والثوابت والمصفوفات والدوال والجمل الشرطیة وجمل التكرار
+الكلمات المحجوزة :
+ھي الكلمات الأساسیة في اللغة والتي تكون الجمل البرمجية ,وهذة الكلمات ينبغى ان لا تستخدم في تعريف عناصر البيانات,مع انة يمكن استخدامها اذا لم تكن في محلها ككلمة محجوزة لتعريف جملة من جمل اللغة الا انة من الافضل عدم استخدامهم لذلك
+--------------------------------------------------------------------------- 
+التعابير:
+
+1- التعابير الرياضية :
+
+هي تعابير تحتوي على اعداد بينها العمليات او المؤثرات الحسابية مثل 2+3*6-3\5 والمؤثرات الحسابية في لغة () هي :
+
+
+٢- التعابیر العلائقیة :
+
+
+وھي تعابیر تحتوي على العلمیات أو المؤثرات العلائقیة أي التي تبین العلاقة بین المعاملات وھذه المؤثرات هي :
+
+والتعابیر المنطقیة تمسى بالشروط لأنھا تستخدم في الجمل الشرطیة.
+ونتیجة التعابیر العلائقیة تكون منطقیة أي إما صح وإما خطأ.
+
+٣- التعابیر المنطقیة:
+
+وھي تعابیر تحوي مؤثرات منطقیة، ھذه المؤثرات تقوم بالربط بین الشروط أو التعابیر العلائقیة.
+وناتج التعابیر المنطقیة بالتأكید ھو قیمة منطقیة(صح أو خطأ).
+----------------------------------------------------------------------------------------
+والمؤثرات المنطقیة ھي:
+و : ویكون الناتج صح إذا كان كلا التعبیرین على طرفیھا صحیحا وإلا فالناتج خطأ.
+أو : ویكون الناتج صح إذا كان أحد أو كلا التعبیرین على طرفیھا صحیحا وإلا فالناتج خطأ.
+نفي : وھي مؤثر أحادي وتقوم بعكس القیمة المنطقیة للتعبیر الآتي بعدھا.
+مثال 
+ لو ( س &gt; 5 )
+{ 
+ } 
+--------------------------------------------------------------------------------------
+البیانات في اللغة :
+
+للبیانات ثلاثة أنواع : رقمیة و نصیة ومنطقیة.
+البیانات الرقمیة : ھي أي رقم سواء كان صحیحاً أو عشری اً، موجباً أو سالب اً
+ مثال : عددصحيح س = 5 : 
+  او عددعشرى س = 5.5 : 
+البیانات النصیة : ھي أي قیمة محصورة بین علامتي تنصیص مزدوجتین " 
+. مثال : جملة س = " اهلا بك " : 
+ البیانات المنطقیة :ھي اثنان إما صح أو خطأ
+عددثنائى س = صح : 
+-----------------------------------------------------------------------------------------------
+جمل اللغة:
+١- جملة الإظھار:
+لإظھار البیانات على الشاشة یتم كتابة الأمر اطبع وبعده البیانات المراد إظھارھا، فمثلا اطبع "سیتم إظھار ھذا النص" :
+ویمكن إظھار النصوص والأعداد وقیم المتغیرات والثوابت والمصفوفات والقیم المرجعة من الدوال
+والتعبیرات الریاضیة والمنطقیة.
+ولإظھار أكثر من قیمة أو عنصر في سطر واحد یتم الفصل بینھم بالفاصلة ‘,' كالتالي:
+وللنزول بمؤشر الإظھار سطرا یتم باستخدام الكلمة المحجوزة سطر كالتالي:
+اعرض سطر, "نص في سطر لوحده", سطر :
+٢- جمل التعریف:
+١- تعریف المتغیرات
+المتغیرات ھي أسماء لمواقع في الذاكرة یتم فیھا تخزین قیم أو بیانات، وسمیت
+متغیرات لأنھ یمكن تغییر قیمھا.
+یتم تعریف المتغیرات بكتابة الكلمة متغیر ثم أسماء المتغیرات كالتالي:
+متغیر رقم، نص، منطقي، منطقي
+وكما نرى فإننا لا نقوم بتعریف نوع المتغیر فقط نعلن أنھ متغیر.
+وأسماء المتغیرات تسمى بالمعرفات والمعرف یجب أن یكون كلمة تبدأ بحرف أو
+علامة الشرط السفلیة _ متبوعین بحرف أو علامة شرطة سفلیة أو رقم لا غیر.
+ویمكن إسناد قیم ابتدائیة للمتغیرات وقت تعریفھا كالتالي:
+متغیر رقم= ٥، نص="ھذا نص"
+والقیمة النصیة یجب أن تكون محصورة بین زوجي علامة تنصیص مزدوجة "
+--------------------------------------------------------------------------------------
+٢- تعریف الثوابت:
+یتم بكتابة الكلمة ثابت ثم المعرفات المراد تعریفھا كالتالي:
+ثابت ط= ٣.١٤
+وتختلف الثوابت عن المتغیرات في أنھا لا یمكن تغییر قیمھا في بعد، وھذا یعني أنھ
+لابد من تخصیص قیمة ابتدائیة للثابت وھذه القیمة لن تتغیر في البرنامج
+--------------------------------------------------------------------------------------
+٣- تعریف المصفوفات:
+المصفوفات ھي عدد من البیانات - ویمكن القول المتغیرات – لھا نفس الاسم ویتم
+التفریق بینھا برقم یسمى دلیل أو فھرس المصفوفة، ودلیل أول عنصر في المصفوفة
+ھو الرقم ١، وتعرف المصفوفات كالتالي:
+[ مصفوفة صف[ ٣
+ھذه الجملة تعرف مصفوفة اسمھا صف وحجمھا ٣ أي أنھا تحتوي على ٣ قیم.
+ویمكن إسناد قیمة ابتدائیة للمصفوفة كالتالي:
+[٦ ،٥ ،٤]=[ مصفوفة صف[ ٣
+حیث تم إسناد القیم ٤ و ٥ و ٦ إلى عناصر المصفوفة أي أن العنصر الأول في
+المصفوفة یحتوي القیمة ٤ وھكذا.
+
+وإذا لم یتم تخصیص قیم ابتدائیة للمصفوفة فإنھ سیتم تخصیص الصفر لكل عناصر
+المصفوفة، أما إذا تم تخصیص عدد من القیم أٌصغر من حجم المصفوفة فإنھ یتم
+تخصیص ھذه القیم لعناصر المصفوفة بدایة من العنصر الأول وھكذا حتى یتم
+تخصیص كل القیم، أما باقي عناصر المصفوفة فیتم تخصیص القیمة صفر لھا.
+وإظھار عنصر من عناصر المصفوفة یتم كالتالي:
+أظھر صف[الدلیل
+ما تم ذكره كان عن المصفوفة أحادیة البعد أي التي یتم الوصول إلى عناصرھا بدلیل
+واحد وھي عبارة عن صف لا أكثر، وھناك مصفوفات ثنائیة البعد یتم الوصول إلى
+عناصرھا بدلیلین وتتكون من أكثر من صف وبالتالي ھي عبارة صفوف وأعمدة، ویتم
+تعریفھا كالتالي:
+مصفوفة[عدد الصفوف، عدد الأعمدة]
+ویمكن إسناد قیم ابتدائیة لھا، ویتم تخصیص القیم بالصفوف أي أن الصف الأول سیأخذ
+القیم الأولى وھكذا</value>
+  </data>
+</root>
